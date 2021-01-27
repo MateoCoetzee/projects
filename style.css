@@ -1,148 +1,51 @@
-/*header {
-    background-color: red;
-    margin: 0px;
-    padding: 10px;
-    height: 25px;
-    width: 600px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-}
-
-nav {
-    background-color: blue;
-    margin: 0px;
-    padding: 10px;
-    height: 125px;
-    width: 200px;
-    position: absolute;
-    top: 45px;
-    left: 0px;
-}
-
-section {
-    background-color: green;
-    margin: 0px;
-    padding: 10px;
-    height: 125px;
-    width: 200px;
-    position: absolute;
-    top: 45px;
-    left: 201px;
-}
-
-aside {
-    background-color: yellow;
-    margin: 0px;
-    padding: 10px;
-    height: 125px;
-    width: 200px;
-    position: absolute;
-    top: 45px;
-    left: 401px;
-}
-
-footer {
-    background-color: purple;
-    margin: 0px;
-    padding: 10px;
-    height: 25px;
-    width: 600px;
-    position: absolute;
-    top: 190px;
-    left: 0px;
-}*/
-
 body {
-    background-color: #7e7b7b;
-}
-
-header {
-    margin: 0px;
-    padding: 10px;
-    height: 1000px;
-    width: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-}
-
-.hero-image {
-    background-image: url("albert-einstein.jpg"); /* The image used */
-    background-color: #cccccc; /* Used if the image is unavailable */
-    height: 700px; /* You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
     margin: 0;
 }
 
-.hero-text {
+.item1 {
+    background-image: url(images/background.jpg);
+    background-size: cover;
     text-align: center;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
+    color: #ffffff;
 }
 
-li {
-    display: inline-block;
-}
-
-li a {
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    font-size: 200%;
-    padding-left: 20px;
-    padding-right: 20px;
-    justify-content: center;
-}
-
-nav {
-    background-color: silver;
-    margin: 0px;
-    padding: 10px;
-    height: fit-content;
-    width: 15%;
-    position: absolute;
-    top: 710px;
-    left: 0px;
-}
-
-nav:hover {
-    box-shadow: 10px 10px 5px #000;
-}
-
-nav li a {
-    font-size: 1rem;
-    color: black;
-    padding-bottom: 10px;
-}
-
-nav li a:hover {
+h1 {
+    font-size: 6rem;
     text-decoration: underline;
 }
 
-section {
-    background-color: green;
-    margin: 0px;
-    padding: 10px;
-    height: fit-content;
-    width: 60%;
-    position: absolute;
-    top: 710px;
-    left: 15%;
+blockquote {
+    font-size: 2rem;
+    padding-bottom: 5%;
 }
 
-aside {
-    background-color: yellow;
-    margin: 0px;
-    padding: 10px;
-    height: 100%;
-    width: 25%;
-    position: absolute;
-    top: 710px;
-    left: 76.5%;
+.item2 {
+    background: #000000;
+    text-align: center;
+}
+
+.item3 {
+    background-color: rgb(49, 48, 48);
+    background-size: cover;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+.item4 {
+    background-color: black;
+    text-align: center;
+    font-size: 1rem;
+    padding: 50px;
+    color: #ffffff;
+}
+
+.container {
+    width: 100%;
+    display: grid;
 }
